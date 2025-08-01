@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c954b7934ce64356",
+        "id": "03df39b2fe5148f5",
         "type": "tabs",
         "children": [
           {
-            "id": "8c37056598913208",
+            "id": "3de64965611a3108",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c37056598913208",
+  "active": "3de64965611a3108",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "2025-08-01.md",
     "Todos.md",
     "03_PROJECTS/shreyash.space.md",
