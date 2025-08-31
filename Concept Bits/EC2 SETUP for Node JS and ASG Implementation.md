@@ -14,15 +14,6 @@
 - Create image of the instance- ![[Screenshot 2025-08-30 at 5.11.53 PM.png]] ![[Screenshot 2025-08-30 at 5.12.43 PM.png]] 
 - Crate a custom security group(optional)-![[Screenshot 2025-08-30 at 5.15.54 PM.png]] 
 - Create Launch Template-![[Screenshot 2025-08-30 at 5.42.45 PM.png]] ![[Screenshot 2025-08-30 at 5.42.56 PM.png]] ![[Screenshot 2025-08-30 at 5.44.58 PM.png]] 
-- Adding User data in Launch Template 
-		`#!/bin/bash 
-		`export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v22.19.0/bin/
-		`echo "hi there before"
-		`echo "hi there after"
-		`npm install -g pm2
-		`cd /home/ubuntu/Test-AWS-ASG
-		`pm2 start index.js
-		`pm2 save
-		`pm2 startup`
+- Adding User data in Launch Template - [[User Data Code]]
 - Now Creating ASG-![[Screenshot 2025-08-30 at 10.57.32 PM.png]] ![[Screenshot 2025-08-30 at 10.58.30 PM.png]] ![[Screenshot 2025-08-30 at 10.58.46 PM.png]] ![[Screenshot 2025-08-30 at 10.59.00 PM.png]] ![[Screenshot 2025-08-30 at 10.59.28 PM.png]] ![[Screenshot 2025-08-30 at 10.59.13 PM.png]] 
  
